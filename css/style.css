@@ -8,6 +8,10 @@ body {
   color: black;
 }
 
+h1 {
+  font-size: 36px;
+}
+
 .logo {
   max-width: 100px;
   max-height: auto;
@@ -53,7 +57,8 @@ a:hover {
   color: #bb68c0;
 }
 
-.body {
+.body,
+.landing-page {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -73,4 +78,21 @@ footer {
 .socials {
   display: flex;
   gap: 20px;
+}
+
+.body.sucursales {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 21px;
+}
+
+.sucursales.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
 }
