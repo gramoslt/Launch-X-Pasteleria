@@ -1,0 +1,16 @@
+/* #efebec */
+
+.logo {
+  max-width: 100px;
+  max-height: auto;
+}
+
+.socials img {
+  max-width: 26px;
+  max-height: auto;
+}
+
+header,
+footer {
+  background-color: #efebec;
+}
