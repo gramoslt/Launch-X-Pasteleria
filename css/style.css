@@ -10,6 +10,7 @@ body {
 
 h1 {
   font-size: 56px;
+  text-align: center;
 }
 
 .logo {
@@ -99,16 +100,65 @@ footer {
   height: auto;
 }
 
+.topping img {
+  width: 300px;
+  height: auto;
+}
+
 .pasteles {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 46px;
+  flex-wrap: wrap;
 }
 
 .pastel .text {
   width: 350px;
   color: #494949b9;
   text-align: justify;
+}
+
+.toppings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 46px;
+  flex-wrap: wrap;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-color: #494949;
+}
+
+input[type="text"] {
+  width: 300px;
+  border-color: #beb5b7;
+  border-style: solid;
+  border-radius: 6px;
+}
+
+button[type="submit"] {
+  background-color: #bb68c0;
+  border-color: #bb68c0;
+  border-style: solid;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+}
+
+.submit {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: white;
+  color: #bb68c0;
 }
