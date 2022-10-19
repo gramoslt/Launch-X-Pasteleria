@@ -162,3 +162,24 @@ button:hover {
   background-color: white;
   color: #bb68c0;
 }
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.inventory {
+  width: 900px;
+}
+
+.inventory-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-content {
+  text-align: center;
+}
